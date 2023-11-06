@@ -426,9 +426,45 @@
 
 //document.write(operacion)
 
-// camelCase ====
+// ============  camelCase   =========
 
 // Primer palabra menuscula y despues las otras em mayuscula!!!!
+
+
+
+
+
+// ================  CONDICIONALES !!! 
+// ===========       ( IF , Else If , Else)
+
+// { } = BLOQUE se ejecuta si es true
+
+// IF - SOLAMENTE PONEMOS 1X ( PRIMEIRO )
+// ELSE IF - QUANTAS VEZES QUERAS PODE POR
+// ELSE - SOLAMENTE 1X ( ULTIMO )
+
+
+
+// nombre = "Erika Silver"
+// 
+// 
+// if (nombre == "Erika"){
+//     alert("Tu nombre es " + nombre);
+// }
+// 
+// else if ( nombre == "Silver"){
+//     alert("Tu nombre es  " + nombre);
+// 
+// }
+// 
+// else{
+//     alert("tu nombre es otro...");
+// }
+
+
+
+
+
 
 
 
