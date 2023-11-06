@@ -249,10 +249,11 @@
 // document.write(frase)
 
 
-// --- OPERADORES (INTERMEDIO ) ----
+// --- OPERADORES ( INTERMEDIO ) ----
 
 
-// OPERADOR DE COMPARACION (TRUE OU FALSE) ( == )
+// OPERADOR DE COMPARACION 
+// (TRUE OU FALSE) ( == )
 
 
 
@@ -264,7 +265,8 @@
 
 
 
-// OPERADOR DE INEGUALDAD ( É DISTINTO ?) ( TRUE OU FALSE ) ( != )
+// OPERADOR DE INEGUALDAD
+// ( É DISTINTO ?) ( TRUE OU FALSE ) ( != )
 
 // let numero = 23;
 // let numero2 = 13;
@@ -275,14 +277,161 @@
 
 
 
-// OPERADOR DE IDENTIDAD ( É DISTINTO ?) ( === )
+// OPERADOR DE IDENTIDAD
+// ( É TOTALMENT IDENTICO? É O MESMO TIPO DE DATO ?  ) ( === )
 
-let numero = 23;
-let numero2 = 13;
-let texto = " Texto 1 ";
-let texto2 = " Texto 2 ";
+// let numero = 23;
+// let numero2 = 13;
+// let texto = " Texto 1 ";
+// let texto2 = " Texto 2 ";
 
-document.write(texto != texto2)
+// document.write(texto === texto2)
+
+
+
+// OPERADOR DE NÃO IDENTIDAD
+// ( NÃO É TOTALMENT IDENTICO ? NÃO É O MESMO TIPO DE DATO ?  ) ( !== )
+
+// let numero = 23;
+// let numero2 = 13;
+// let texto = " Texto 1 ";
+// let texto2 = " Texto 2 ";
+// 
+// document.write(texto !== texto2)
+
+
+// OPERADOR DE COMPARACAO
+
+// ( > ) MAYOR
+// ( >= ) MAYOR O IGUAL
+// ( < ) MENOR
+// ( <= ) MENOR O IGUAL
+
+// let numero = 23;
+// let numero2 = 13;
+// 
+// resultado = numero > numero2
+// 
+// 
+// document.write(resultado)
+
+
+
+// ================== OPERADORES LOGICOS !!!!!!!!!
+
+// let valor = true;
+// let valor2 = true;
+
+
+// let resultado = valor && valor2; 
+
+// COMO FUNCIONA ( AND ) = &&
+// se las 2 condiciones se cumplem es true.
+// so aceita booleanos (true y false)
+// (true && true) = true
+// (false && true) = false
+
+
+//let resultado2 = valor || valor2; 
+
+// COMO FUNCIONA ( OR ) = ||
+// SE QUALQUER DE LAS 2 ES VERDADEIRA ES TRUE.
+// ( TRUE || TRUE ) = TRUE
+// ( TRUE || FALSE ) = TRUE
+// ( FALSE || FALSE ) = FALSE
+
+
+// let resultado3 = !valor;
+
+// COMO FUNCIONA O ( NOT (LOGICO)) = !
+// REGRESSA O CONTRARIO 
+// ( ! TRUE ) = FALSE
+// ( ! FALSE ) = TRUE
+
+
+// ======== TAMBEM PODEMOS MESCLAR OPERACOES =========
+
+// EJERCICIO 
+
+// num1 = 12;
+// num2 = 24;
+// num3 = 25;
+// num4 = 92;
+// num5 = 91;
+// 
+// 
+// 
+// operacion = (num1 < num2 || num2 < num3) && (!(num1 != num2) && num5 != num3);
+
+// PRIMEIRO SE RESOLVE O QUE ESTA ADENTRO DOS ( PARENTESES ) E DEPOIS O QUE ESTA AFURA.
+// ==== EXPLICACION
+// (num1 < num2 || num2 < num3)
+// num1 es menor a num2 ( true ) num2 es menor que num3 (true) 
+//( TRUE || TRUE )
+
+// (!(num1 != num2) && num5 != num3);
+// el contrario de num1  es distindo a num2 ( true , porque nao sao iguais)
+// (!(true) && num5 != num3);
+// (!true && num5 != num3);
+// O CONTRARIO (!) DE TRUE ES FALSE === com o (!) te muda ao oposto
+// (false && num5 != num3);
+// (false && num5 != num3); === NUM5 ES DISTINTO DE NUM3 ???
+// (FALSE && TRUE);
+
+
+// ===== COMO FICOU A OPERACAO!???
+
+// operacion = ( true || true ) && (false && true)
+// ( || ) em ( OR ) SE QUALQUER UMA É TRUE, FICA TRUE.
+// ( && ) EM ( AND ) OS DOIS TEM QUE SER IGUAL PARA SER TRUE, SE TEM UM FALSE , TODO FICA FALSE
+
+// ==================
+
+// operacion = ( true ) && (false)
+
+// operacion = ( true ) && (false) 
+//
+//=== LEMBRE-SE !!!!
+
+// ( && ) EM ( AND ) OS DOIS TEM QUE SER IGUAL PARA SER TRUE, SE TEM UM FALSE , TODO FICA FALSE
+
+
+// OPERACION = FALSE
+
+
+
+// EJERCICO 2
+
+//num1 = 12;
+//num2 = 24;
+//num3 = 25;
+//num4 = 92;
+//num5 = 91;
+//
+//
+//
+//operacion = (num5 > num2 && num4 < num3 ) || (!(num1 === num2) || num3 != num3);
+
+
+// operacion = (true && true) || (!(num1 === num2) || num3 != num3); 
+// operacion = (true) || (!(num1 === num2) || num3 != num3); 
+// operacion = true || (!(false) || num3 != num3); 
+// operacion = true || (true || num3 != num3); 
+// operacion = true || (true || false); 
+// operacion = true || true; 
+// operacion = true; 
+
+
+
+
+//document.write(operacion)
+
+// camelCase ====
+
+// Primer palabra menuscula y despues las otras em mayuscula!!!!
+
+
+
 
 
 
