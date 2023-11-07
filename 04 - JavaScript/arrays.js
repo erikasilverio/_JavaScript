@@ -169,16 +169,38 @@
 // EM ( FOR ) DEFINIMOS A VARIABLE, LE DAMOS LA CONDICION Y AUMENTAMOS.
 // AQUI VEMOS QUE DENTRO DE FOR A VARIABLE ES UN VALOR, AFURA OTRO.
 
-let i = 20
 
-for (let i = 0; i < 6 ; i ++) {
-    document.write( i + "<br>");
 
-}
+// for (let i = 0; i < 6 ; i++) {
+//     document.write( i + "<br>");
 
-document.write(i);
+// }
 
-// 2.47 MIN
+
+
+
+// for (let i = 0; i < 15 ; i++ ) {
+// 
+//     
+//     if ( i == 12) {
+//     continue;  
+//     }
+
+// ===== COM O "CONTINUE" ELE SALTOU O NUMERO 12
+// ===== COM "BREAK" ELE PARA NO NUMERO 12
+
+//    document.write( i + "<br>");
+
+// }
+
+
+// ====================== FOR IN ================
+
+
+
+
+
+
 
 
 
