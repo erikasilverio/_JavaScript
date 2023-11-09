@@ -2,6 +2,11 @@
 // ===================== ARRAYS =======================
 
 
+
+
+
+
+
 // ARRAYS =  sao objetos, podemos guardar muitos dados.
 
 // let arrays = ["Erika" , 36, " Silver"]
@@ -194,11 +199,175 @@
 // }
 
 
-// ====================== FOR IN ================
+// ====================== FOR IN ( DEVUELVE EL INDICE) ================
 
 
 
 
+
+// let animales = ["gato", "perro", "rata"];
+// 
+// for (animal in animales){
+//     document.write(animal + "<br>");
+//     EJEMPLO
+ //     document.write(animales[0] + "<br> ") mostra a posicao solicitada
+// 
+// }
+// 
+//     document.write("<br>");
+// 
+// 
+// 
+// 
+// ====================== FOR OF ( DEVUELVE EL VALOR) ================
+
+
+
+
+// 
+// for (animal of animales){
+//     document.write(animal + "<br>");
+//     
+// 
+// }
+
+
+// ====================== LABEL ================
+
+
+// array1 = ["maria", "josefa","sofia"]
+// array2 = [ "pedro","marcelo", array1, "joana"]
+// 
+// 
+// for (let array in array2) {
+//     if (array == 2) {
+//         for (let array of array1){
+//             document.write(array + "<br>");
+//             continue;
+//         }
+//     } else {
+//         document.write(array2[array] + "<br>")
+//     }
+// 
+// }
+
+// = ============================================================ = =
+// ==================================================================
+
+
+
+
+// ==============================  FUNCIONES ==========================
+
+
+
+// function saludar(){
+// 
+//     respuesta = prompt("Hola Erika! Como fue tu dia?");
+// if (respuesta == "bien"){
+//     alert("Me Alegro!")
+// } else {
+//     alert("Que Pena!")
+// }
+// 
+// 
+// }
+// 
+// 
+// saludar()
+// saludar()
+
+
+
+// =======  RETURN !!! ============
+
+// function saludar () {
+//         alert("Hola!!!");
+//         return "La function se ejecuto correctamente"
+// }
+// 
+// let saludo = saludar();
+// 
+// document.write(saludo)
+
+
+
+// =======  PARAMETROS !!! ============
+
+
+
+
+
+// function suma(num1,num2){
+//     
+//     let res = num1 + num2;
+//     
+//     document.write(res);
+//     document.write("<br>");
+// 
+// }
+// 
+// suma(12,32)
+// 
+// suma(22,34)
+// 
+// suma(1,1)
+
+
+
+// OTRO EJEMPLO
+
+// function saludar(nombre){
+//     let frase = `Hola! ${nombre} ! Como Estas??? `;
+//     document.write(frase)
+// }
+// 
+// saludar("Erika")
+
+
+// OTRO EJEMPLO
+
+// const saludar = function(nombre){
+//     let frase = `Hola ${nombre}!!! Como estas?`;
+//     document.write(frase)
+// }
+
+
+//saludar("Erika")
+
+
+
+
+
+// ======= FUNCIONES FLECHA  !!! ============>>>>>>>>>>>>>>>
+
+
+
+
+
+
+// const saludar = nombre=>{
+//     let frase = `Hola ${nombre}!!! Como estas?`;
+//     document.write(frase)
+// }
+// 
+// saludar("Erika")
+
+
+// OTRO EJEMPLO DE FLECHA
+
+
+
+
+
+// const saludar = (nombre) => {
+//     
+//     document.write("Hola Como estas? " + nombre);
+//     
+//     
+// }
+// 
+// saludar("Erika")
 
 
 
