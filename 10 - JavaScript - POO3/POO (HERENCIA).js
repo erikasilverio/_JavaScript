@@ -32,9 +32,9 @@ class Perro extends Animal {
 
 
 
-let perro = new Perro ("perro", 5, "marron", "Vira-lata");
-let gato = new Animal ("gato", 2, "blanco");
-let pajaro = new Animal ("pajaro", 1, "negro");
+const perro = new Perro ("perro", 5, "marron", "Vira-lata");
+const gato = new Animal ("gato", 2, "blanco");
+const pajaro = new Animal ("pajaro", 1, "negro");
 
 
 
