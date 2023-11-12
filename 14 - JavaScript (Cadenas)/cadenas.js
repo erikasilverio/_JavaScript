@@ -129,12 +129,12 @@
 // =========  PADSTART () " REPETE LA CANDENA CON EL QUE INDICAMOS 
 
 
-// let cadena = "abc ";
-// let cadena2 = " ";
-// 
-// resultado =  cadena.repeat(10)
-// 
-// document.write(resultado);
+ let cadena = "abc ";
+ let cadena2 = " ";
+ 
+ resultado =  cadena.repeat(10)
+ 
+ document.write(resultado);
 
 
 
