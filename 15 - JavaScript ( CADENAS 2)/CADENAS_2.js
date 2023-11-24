@@ -23,12 +23,12 @@
 // SE MOSTRA UNO ANTES.
 
 
-let cadena = "ABCDEFG";
-
-
-resultado = cadena.substring(0,3);
-
-document.write(resultado);
+// let cadena = "ABCDEFG";
+// 
+// 
+// resultado = cadena.substring(0,3);
+// 
+// document.write(resultado);
 
 
 // ============ SPLIT =======
